@@ -35,7 +35,7 @@ const mystyle={
         <TfiEmail className='icon'/>
       </div>
       <div className='nav-mid'>
-        <a><span onClick={()=>setShowSelectPropertType(!showSelectPropertType)}>SHOP<IoIosArrowDown className='shop-down-arrow'/></span>
+        <a href='/'><span onClick={()=>setShowSelectPropertType(!showSelectPropertType)}>SHOP<IoIosArrowDown className='shop-down-arrow'/></span>
         {
                     showSelectPropertType && 
                     <div className="dropdown" style={mystyle}>
@@ -47,19 +47,19 @@ const mystyle={
                         }}> */}
 
                         <ul className='dropdown-ul'>
-                            <li className='dropdown-ul-li'><a href='#'>Dresses</a></li>
-                            <li className='dropdown-ul-li'><a href='#'>Skirts</a></li>
-                            <li className='dropdown-ul-li'><a href='#'>Pants</a></li>
-                            <li className='dropdown-ul-li'><a href='#'>Accessories &nbsp;<span><IoIosArrowForward className='shop-down-arrow'/></span></a></li>
-                            <li className='dropdown-ul-li'><a href='#'>Tops</a></li>
+                            <li className='dropdown-ul-li'><a href='/'>Dresses</a></li>
+                            <li className='dropdown-ul-li'><a href='/'>Skirts</a></li>
+                            <li className='dropdown-ul-li'><a href='/'>Pants</a></li>
+                            <li className='dropdown-ul-li'><a href='/'>Accessories &nbsp;<span><IoIosArrowForward className='shop-down-arrow'/></span></a></li>
+                            <li className='dropdown-ul-li'><a href='/'>Tops</a></li>
                         </ul>
                     </div>
                     }</a>
 
 
         {/* <a href='#'>SHOP ^</a> */}
-        <a href='#'>BIHART</a>
-        <a href='#'>ART FORMS</a>
+        <a href='/'>BIHART</a>
+        <a href='/'>ART FORMS</a>
       </div>
       <div className='nav-right'>
         <ImProfile className='icon'/>
