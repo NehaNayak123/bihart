@@ -1,0 +1,105 @@
+.footer-container{
+    padding: .5rem .5rem .5rem .5rem;
+    /* margin: .5rem .5rem .5rem .5rem; */
+    width: 98.7vw;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #fff;
+}
+.footer-upper{
+    display: flex;
+    padding: 2rem 10rem;
+    justify-content: space-between;
+}
+.footer-upper-left{
+    display: flex;
+}
+.footer-upper-left-l{
+    padding-right: 4rem;
+    line-height: 2rem;
+}
+.footer-upper-left-r{
+    line-height: 2rem;
+}
+.footer-upper-right{
+    /* padding-right: 4rem; */
+}
+.footer-upper-right-p{
+    font-size: 18px;
+    padding-bottom: 2rem;
+}
+.footer-upper-right-input-container{
+    padding-bottom: 1.5rem;
+}
+.input{
+    border: none;
+    background-color: black;
+    padding: .8rem;
+    width: 18rem;
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.input:focus{
+    outline: none;
+}
+.footer-upper-right-input-container-btn{
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+.footer-upper-right-social-icons{
+    display: flex;
+}
+.footer-upper-right-icon{
+    padding-right: .5rem;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-lower{
+    padding-left: 3rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 940px){
+    .footer-upper{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 2rem;
+    }
+    .footer-upper-left-l{
+        padding-right: 2rem;
+    }
+    .footer-upper-left-l p{
+        font-size: 18px;
+    }
+    .footer-upper-left-r p{
+        font-size: 18px;
+    }
+    .footer-upper-right{
+        padding-top: 3rem;
+    }
+    .footer-upper-right-p{
+        font-size: 22px;
+    }
+    .footer-upper-right-input-container{
+        padding-bottom: 1.5rem;
+        display: flex;
+    }
+    .input{
+        border-bottom: 1px solid #fff;
+        font-size: 20px;
+        padding: .3rem;
+    }
+
+
+    .footer-lower{
+        align-items: center;
+    }
+}
